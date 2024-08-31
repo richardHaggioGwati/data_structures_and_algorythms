@@ -1,3 +1,6 @@
+/**
+ * @return {boolean}
+ */
 class HashTable {
     constructor() {
       this.size = 10;
@@ -44,4 +47,5 @@ class HashTable {
   t.put("apple", 10);
   t.put("orange", 20);
   t.put("banana", 30);
-  console.log(t.get("orange"));
+  console.log(t.get("orange")); //20
+  console.log(t);
